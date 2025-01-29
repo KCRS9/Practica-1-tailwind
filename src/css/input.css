@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base{
+
+    header{
+        @apply text-center text-5xl p-5 rounded-t-lg text-white font-bold;
+    }
+
+    nav ul{
+        @apply flex justify-evenly p-4 text-white text-2xl bg-white my-5 rounded-lg w-10/12 m-auto;
+    }
+    
+
+    nav ul li:hover{
+        @apply bg-gradient-to-r from-green-400 to-blue-400 text-xl opacity-100;
+    }
+
+    
+
+    body,
+    header,
+    nav li{
+        @apply bg-gradient-to-r from-blue-400 to-green-400 rounded-lg p-3;
+    }
+
+    footer{
+        @apply text-center text-2xl p-5 rounded-b-lg text-white font-bold;
+    }
+}
+
+/* https://flowbite.com/docs/getting-started/introduction/ */

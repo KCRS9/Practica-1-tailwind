@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./src/css/output.css">
+  <title>.: Sitio web para CSS :.</title>
+</head>
+
+<body>
+  <header>
+    <h1>DEPORTES</h1>
+  </header>
+
+  <nav class="bg-gradient-to-r from-blue-400 to-green-400 p-4 rounded-lg shadow-lg w-10/12 mx-auto my-5">
+    <div class="flex justify-between items-center">
+
+      <!-- Botón del menú en móviles -->
+      <button id="menu-btn" class="md:hidden text-white text-3xl">
+        ☰
+      </button>
+    </div>
+
+    <!-- Lista de navegación -->
+    <ul id="menu"
+      class="hidden flex-col md:flex md:flex-row md:justify-evenly md:items-center text-white text-lg mt-4 md:mt-0 space-y-3 md:space-y-0">
+      <li class="p-3 rounded-lg hover:bg-gradient-to-r from-green-400 to-blue-400">
+        <a href="index.html">Inicio</a>
+      </li>
+      <li class="p-3 rounded-lg hover:bg-gradient-to-r from-green-400 to-blue-400">
+        <a href="escalada.html">Escalada</a>
+      </li>
+      <li class="p-3 rounded-lg text-white text-lg md:text-2xl opacity-70">
+        <a href="ciclismo.html" class="pointer-events-none">Ciclismo</a>
+      </li>
+
+      <li class="p-3 rounded-lg hover:bg-gradient-to-r from-green-400 to-blue-400">
+        <a href="contacto.html">Contacta con nosotr@s</a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <main class="flex flex-wrap w-10/12 mx-auto justify-between bg-white rounded-lg">
+    <section class="my-5 p-5 flex flex-wrap">
+      <article class="w-full order-1 md:order-2 mb-4">
+        <h2 class="text-center text-2xl p-5">Orígenes del ciclismo</h2>
+        <p class="w-10/12 mx-auto text-justify p-2">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </article>
+      <article class="w-full order-2 md:order-1 mb-4">
+        <h2 class="text-center text-2xl p-5">Las tres grandes vueltas</h2>
+
+        <div class="flex  flex-col md:flex-row">
+          <p class="order-2 md:order-1 w-full md:w-7/12 flex text-justify me-5 self-center">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
+
+          <figure class="order-1 md:order-2 w-full md:w-5/12 flex py-2">
+            <img src="img/ciclismo/giro_italia.jpeg" alt="Giro de Italia" class="w-full h-auto border rounded-lg">
+          </figure>
+        </div>
+
+        <div class="block md:flex md:justify-between">
+          <figure class="w-full md:w-1/2 flex justify-center py-5">
+            <img src="img/ciclismo/tour_francia.jpeg" alt="Tour de Francia" class="w-full rounded-lg md:max-w-[450px] mx-auto">
+          </figure>
+          
+          <figure class="w-full md:w-1/2 flex justify-center py-5">
+            <img src="img/ciclismo/vuelta_espana.jpeg" alt="Vuelta a España" class="w-full rounded-lg md:max-w-[450px] mx-auto">
+          </figure>
+        </div>
+
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      &copy; Práctica CSS
+    </p>
+  </footer>
+  <script src="/js/script.js"></script>
+</body>
+
+</html>
