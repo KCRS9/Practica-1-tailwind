@@ -2903,4 +2903,11 @@
   syntax: "*";
   inherits: false;
 }
-@property --tw-duration
+@property --tw-duration {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false;
+}
